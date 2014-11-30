@@ -11,5 +11,5 @@ docker run \
     -v $TKSRC:/root/.tksrc \
     -v $CONFIGDIR:/root/.taxi \
     -v $DATADIR:$DATADIR \
-    taxi-tmp \
+    mjanser/taxi \
     $@
